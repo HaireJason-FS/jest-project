@@ -14,7 +14,7 @@ requirements:
   
   To add a bit of a challenge, there's a plot twist for this week's activity. In addition to implementing 4 of the functions we've discussed, you'll also need to write functional tests for each of the 4 functions you've created. This was mentioned at the beginning of the assignment, so keep that in mind.
 */
-/*
+
 //----------------------------------------------------------------
 //Username Testing
 // const { describe } = require('yargs');
@@ -108,7 +108,7 @@ describe('getCardType', () => {
       expect(getCardType(null)).toBe('Invalid'); //null input
     });
 });
-*/
+
 //---------------purgeDuplicates - Raffle Testing-----------------------------
 const { dupNumRaff } = require('./utils');
 

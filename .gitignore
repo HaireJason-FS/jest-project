@@ -1,2 +1,7 @@
 # add node_modules/ to .gitignore
 node_modules/
+
+
+# OS / Editor
+.DS_Store
+.env
